@@ -7,31 +7,31 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@commitlint/cli": "^13.1.0",
-        "@commitlint/config-conventional": "^13.1.0",
-        "@glidejs/glide": "^3.4.1",
-        "autoprefixer": "^10.3.4",
-        "browserslist": "^4.17.0",
+        "@commitlint/cli": "^16.1.0",
+        "@commitlint/config-conventional": "^16.0.0",
+        "@glidejs/glide": "^3.5.2",
+        "autoprefixer": "^10.4.2",
+        "browserslist": "^4.19.1",
         "bulma": "^0.9.3",
-        "clean-css-cli": "^5.3.3",
+        "clean-css-cli": "^5.5.2",
         "commitizen": "^4.2.4",
         "cookieconsent": "^3.1.1",
         "cz-conventional-changelog": "^3.3.0",
-        "eslint": "^7.32.0",
+        "eslint": "^8.8.0",
         "eslint-config-standard": "^16.0.3",
-        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-import": "^2.25.4",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^5.1.0",
+        "eslint-plugin-promise": "^6.0.0",
         "jquery": "^3.6.0",
         "lightbox2": "^2.11.3",
-        "node-sass": "6.0.1",
+        "node-sass": "7.0.1",
         "normalize.css": "^8.0.1",
-        "postcss-cli": "^8.3.1",
-        "postcss-preset-env": "^6.7.0",
+        "postcss-cli": "^9.1.0",
+        "postcss-preset-env": "^7.3.0",
         "raphael": "^2.3.0",
-        "sceditor": "^3.0.0",
+        "sceditor": "^3.1.1",
         "tooltipster": "^4.2.8",
-        "uglify-es": "3.3.9"
+        "uglify-js": "3.15.0"
     },
     "config": {
         "commitizen": {
@@ -43,6 +43,6 @@
         "release": "standard-version"
     },
     "dependencies": {
-        "postcss": "^8.3.6"
+        "postcss": "^8.4.6"
     }
 }
