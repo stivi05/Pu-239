@@ -1,49 +1,49 @@
 {
-    "name": "pu239",
-    "version": "0.7.0",
-    "description": "Pu-239: A torrent tracker",
-    "main": "index.js",
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@commitlint/cli": "^17.4.2",
-        "@commitlint/config-conventional": "^17.4.2",
-        "@glidejs/glide": "^3.6.0",
-        "autoprefixer": "^10.4.13",
-        "browserslist": "^4.21.5",
-        "bulma": "0.9.4",
-        "clean-css-cli": "^5.6.2",
-        "commitizen": "^4.3.0",
-        "cookieconsent": "^3.1.1",
-        "cz-conventional-changelog": "^3.3.0",
-        "eslint": "8.33.0",
-        "eslint-config-standard": "17.0.0",
-        "eslint-plugin-import": "2.27.5",
-        "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-promise": "6.1.1",
-        "jquery": "3.6.3",
-        "lightbox2": "^2.11.3",
-        "node-sass": "8.0.0",
-        "normalize.css": "^8.0.1",
-        "postcss-cli": "^10.1.0",
-        "postcss-preset-env": "^8.0.1",
-        "raphael": "2.3.0",
-        "sceditor": "^3.1.1",
-        "tooltipster": "^4.2.8",
-        "uglify-js": "3.17.4",
-        "terser": "5.31.1"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
-    },
-    "scripts": {
-        "commit": "git-cz",
-        "release": "standard-version"
-    },
-    "dependencies": {
-        "postcss": "^8.4.21"
-    }
+	"name": "pu239",
+	"version": "0.7.0",
+	"description": "Pu-239: A torrent tracker",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@glidejs/glide": "^3.6.1",
+		"autoprefixer": "^10.4.19",
+		"browserslist": "^4.23.1",
+		"bulma": "^1.0.1",
+		"clean-css-cli": "^5.6.3",
+		"commitizen": "^4.3.0",
+		"cookieconsent": "^3.1.1",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^9.5.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^6.2.0",
+		"jquery": "^3.7.1",
+		"lightbox2": "^2.11.4",
+		"node-sass": "^9.0.0",
+		"normalize.css": "^8.0.1",
+		"postcss-cli": "^11.0.0",
+		"postcss-preset-env": "^9.5.14",
+		"raphael": "^2.3.0",
+		"sceditor": "^3.2.0",
+		"tooltipster": "^4.2.8",
+		"uglify-js": "^3.18.0",
+		"terser": "^5.31.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"scripts": {
+		"commit": "git-cz",
+		"release": "standard-version"
+	},
+	"dependencies": {
+		"postcss": "^8.4.38"
+	}
 }
