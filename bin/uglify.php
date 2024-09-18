@@ -448,7 +448,8 @@ function process_js($key, $list, $purpose, $jstmp, $folder, $js_ext)
 
     $list = implode(' ', $files);
     //passthru(ROOT_DIR . "node_modules/uglify-es/bin/uglifyjs $list $purpose -o $jstmp");
-    passthru(ROOT_DIR . "node_modules/uglify-js/bin/uglifyjs $jstmp $purpose -o $jstmp");
+    //passthru(ROOT_DIR . "node_modules/uglify-js/bin/uglifyjs $jstmp $purpose -o $jstmp");
+    passthru(ROOT_DIR . "node_modules/terser/bin/terser $jstmp $purpose -o $jstmp");
     if (file_exists($jstmp)) {
         $lkey = str_replace('_js', '', $key);
         $hash = substr(hash_file('sha256', $jstmp), 0, 8);
