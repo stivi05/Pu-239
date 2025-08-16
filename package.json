@@ -1,49 +1,49 @@
 {
-	"name": "pu239",
-	"version": "0.7.0",
-	"description": "Pu-239: A torrent tracker",
-	"main": "index.js",
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@commitlint/cli": "^19.5.0",
-		"@commitlint/config-conventional": "^19.5.0",
-		"@glidejs/glide": "^3.6.2",
-		"autoprefixer": "^10.4.20",
-		"browserslist": "^4.24.2",
-		"bulma": "^1.0.2",
-		"clean-css-cli": "^5.6.3",
-		"commitizen": "^4.3.1",
-		"cookieconsent": "^3.1.1",
-		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^9.13.0",
-		"eslint-config-standard": "^17.1.0",
-		"eslint-plugin-import": "^2.31.0",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-promise": "^7.1.0",
-		"jquery": "^3.7.1",
-		"lightbox2": "^2.11.5",
-		"node-sass": "^9.0.0",
-		"normalize.css": "^8.0.1",
-		"postcss-cli": "^11.0.0",
-		"postcss-preset-env": "^10.0.8",
-		"raphael": "^2.3.0",
-		"sceditor": "^3.2.0",
-		"tooltipster": "^4.2.8",
-		"uglify-js": "^3.19.3",
-		"terser": "^5.36.0"
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	},
-	"scripts": {
-		"commit": "git-cz",
-		"release": "standard-version"
-	},
-	"dependencies": {
-		"postcss": "^8.4.47"
-	}
+  "name": "pu239",
+  "version": "0.7.0",
+  "description": "Pu-239: A torrent tracker",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@glidejs/glide": "^3.6.2",
+    "autoprefixer": "^10.4.20",
+    "browserslist": "^4.24.2",
+    "bulma": "^1.0.2",
+    "clean-css-cli": "^5.6.3",
+    "commitizen": "^4.3.1",
+    "cookieconsent": "^3.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "jquery": "^3.7.1",
+    "lightbox2": "^2.11.5",
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^11.0.0",
+    "postcss-preset-env": "^10.0.8",
+    "raphael": "^2.3.0",
+    "sceditor": "^3.2.0",
+    "tooltipster": "^4.2.8",
+    "uglify-js": "^3.19.3",
+    "terser": "^5.36.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "postcss": "^8.4.47"
+  }
 }
