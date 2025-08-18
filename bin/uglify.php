@@ -499,7 +499,7 @@ function process_css($key, $list, $spurpose, $csstmp, $folder, $css_ext)
     $cmd = ROOT_DIR . "node_modules/clean-css-cli/bin/cleancss $spurpose -o $csstmp $list";
     passthru($cmd);
     if (file_exists($csstmp)) {
-        passthru("sudo npx postcss $csstmp --no-map --replace");
+        passthru("npx postcss $csstmp --no-map --replace");
         $lkey = str_replace('_css', '', $key);
         $hash = substr(hash_file('sha256', $csstmp), 0, 8);
         $data = file_get_contents($csstmp);
@@ -604,7 +604,7 @@ function get_default_border($folder)
         }
     }
     can_delete(BIN_DIR . 'pu239.css', true);
-    passthru('npx node-sass ' . BIN_DIR . 'pu239.scss ' . BIN_DIR . 'pu239.css');
+    passthru('npx sass ' . BIN_DIR . 'pu239.scss ' . BIN_DIR . 'pu239.css');
 }
 
 /**
