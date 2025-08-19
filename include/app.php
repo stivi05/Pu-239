@@ -19,7 +19,7 @@ $builder->addDefinitions(CONFIG_DIR . 'subtitles.php');
 $builder->addDefinitions(CONFIG_DIR . 'whereis.php');
 $builder->addDefinitions(CONFIG_DIR . 'definitions.php');
 $builder->useAutowiring(true);
-$builder->useAnnotations(false);
+$builder->useAttributes(false);
 try {
     $container = $builder->build();
 } catch (Exception $e) {
